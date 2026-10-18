@@ -80,4 +80,4 @@ Model performance is compared to assess the trade-off between identifying patien
 
 - GitHub: https://github.com/Linda5-umwali/diabetes-readmission-prediction 
 - Dataset and saved models: https://drive.google.com/drive/folders/1E-rFggXe31DBS6GqPcflj2R_UQTpVbeY?usp=sharing
-- Demo video:
+- Demo video: https://www.loom.com/share/7d7121e0956c4c23b22cfdfb54b3cfa2
