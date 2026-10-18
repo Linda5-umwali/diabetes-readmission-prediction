@@ -28,7 +28,10 @@ The project uses the Diabetes 130-US Hospitals dataset.
 The raw dataset is not included in this repository. Obtain it from
 the original dataset source or the linked project data folder.
 
-[Dataset and saved models](GOOGLE_DRIVE_LINK) ...
+[Dataset and saved models](https://drive.google.com/drive/folders/1E-rFggXe31DBS6GqPcflj2R_UQTpVbeY?usp=sharing) ...
+
+
+“Download diabetic_data.csv from the UCI repository (https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008) or from the Drive folder (https://drive.google.com/drive/folders/1E-rFggXe31DBS6GqPcflj2R_UQTpVbeY?usp=sharing), and set DATA_PATH.
 
 ## Methodology
 
@@ -46,22 +49,35 @@ from the predictive features.
 
 ## Models
 
-Update this list to reflect the models actually trained:
-- Logistic Regression
-- Random Forest
-- Gradient Boosting
-- TensorFlow/Keras neural network
+### Traditional Machine Learning
+
+Logistic Regression: baseline classification model.
+
+Random Forest Classifier: ensemble model for capturing nonlinear relationships.
+
+LightGBM Classifier: gradient-boosting model for tabular data.
+
+### Deep Learning
+
+Feedforward Neural Network (Multilayer Perceptron): built using TensorFlow/Keras, with data input handled using tf.data.
 
 ## Evaluation Metrics
 
-- PR-AUC (Average Precision)
-- Macro-F1 score
-- Recall for the positive class
-- Confusion matrix
-- ROC-AUC, where appropriate
+- Precision–Recall AUC (PR-AUC)
+
+- ROC-AUC
+
+- Macro-F1 Score
+
+- Recall and Precision for the positive class (readmission within 30 days)
+
+- Confusion Matrix
+  
+
+Model performance is compared to assess the trade-off between identifying patients at risk of early readmission and minimizing false-positive predictions.
 
 ## Project Links
 
 - GitHub: https://github.com/Linda5-umwali/diabetes-readmission-prediction 
-- Dataset and saved models: 
+- Dataset and saved models: https://drive.google.com/drive/folders/1E-rFggXe31DBS6GqPcflj2R_UQTpVbeY?usp=sharing
 - Demo video:
